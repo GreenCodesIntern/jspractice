@@ -74,7 +74,7 @@ let myPromise0 = new Promise(function(myResolve, myReject) {
   getFile(myDisplayer);
 
 
-  let myPromise = new Promise(function(myResolve, myReject) {
+  let myPromise1 = new Promise(function(myResolve, myReject) {
     let req = new XMLHttpRequest();
     req.open('GET', "mycar.html");
     req.onload = function() {
